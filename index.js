@@ -61,7 +61,6 @@ async function run() {
       const cursor = productCollection.find();
       const result = await cursor.toArray();
       res.send(result);
-      console.log(result);
     });
 
     // Send a ping to confirm a successful connection
